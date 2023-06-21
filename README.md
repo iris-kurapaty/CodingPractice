@@ -4,8 +4,8 @@ This repo is to document all the different steps taken in building a light & acc
 ## Code Structure
 .  
 |---src  
-|&nbsp|---model.py  
-|&nbsp|---utils.py  
+|&nbsp;|---model.py  
+|&nbsp;|---utils.py  
 |---Step1.ipynb  
 |---Step2.ipynb  
 |---Step3.ipynb  
@@ -17,7 +17,7 @@ This repo is to document all the different steps taken in building a light & acc
 
 ## Steps taken for Model Building
 Step 1:
-	- Target: 
+        - Target: 
 		○ Getting the setup right
 		○ Create util functions for displaying images and other plots
 		○ Using basic transformers for the images and loading data
