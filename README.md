@@ -4,7 +4,7 @@ This repo is to document all the different steps taken in building a light & acc
 ## Code Structure
 .  
 |---src  
-|&nbsp;&nbsp;&nbsp;---model.py  
+|&nbsp;&nbsp;&nbsp;|---model.py  
 |&nbsp;&nbsp;&nbsp;|---utils.py  
 |---Step1.ipynb  
 |---Step2.ipynb  
