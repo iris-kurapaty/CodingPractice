@@ -20,7 +20,7 @@ Step 1:
 		* Too many parameters and epochs used.
 		* Training is hitting 99.96 and test accuracy reaches 99.21
 		* One strange drop in test accuracy to 98, model must be overfitting & is inconsistent
-	* Link: https://github.com/iris*kurapaty/CodingPractice/blob/main/Step1.ipynb
+	* Link: https://github.com/iris*kurapaty/CodingPractice/blob/main/Step1.ipynb  
 
 Step 2:
 	* Target: 
@@ -34,7 +34,7 @@ Step 2:
 	* Analysis:
 		* Big drop in number of parameters but still large
 		* Initially doing well but we see some over fitting in the later epochs
-	* Link: https://github.com/iris*kurapaty/CodingPractice/blob/main/Step2.ipynb
+	* Link: https://github.com/iris*kurapaty/CodingPractice/blob/main/Step2.ipynb  
 Step 3:
 	* Target: 
 		* To drop to the lightest model
@@ -47,65 +47,65 @@ Step 3:
 		* Parameters have dropped and so has accuracy. However in comparison only 10% of previous model
 		* Over fitting has reduced to a huge extent
 		* Accuracy needs to be pushed for train & test.
-	* Link: https://github.com/iris*kurapaty/CodingPractice/blob/main/Step3.ipynb
+	* Link: https://github.com/iris*kurapaty/CodingPractice/blob/main/Step3.ipynb  
 
 Step 4:
 	* Target: 
-		* Add Batch Normalization in every layer
-	* Results:
-		* 6 K parameters
-		* Training Accuracy 99.68%
-		* Test Accuracy is 99.12%
-	* Analysis:
-		* We see overfitting in the model with train accuracy rising much higher
-		* Accuracy needs to be converted for test
-	* Link: https://github.com/iris*kurapaty/CodingPractice/blob/main/Step4.ipynb
-Step 5:
-	* Target: 
-		* Add Regularization to make training harder
-	* Results:
-		* 6 K parameters
-		* Training Accuracy 98.8%
-		* Test Accuracy is 99.24%
-	* Analysis:
-		* Training accuracy but it has helped with test accuracy which is above 99 & consistent.
-		* However test accuracy isnt going beyond 99.24 in 15 epochs.
-		* We can add GAP to see if the model capacity can be pushed.
-	* Link: https://github.com/iris*kurapaty/CodingPractice/blob/main/Step5.ipynb
-Step 6:
-	* Target: 
-		* Add GAP to the last layer
-		* Changed the kernel size of the last convolution layer to adjust for GAP
-	* Results:
-		* 5.4 K parameters
-		* Training Accuracy 98.7%
-		* Test Accuracy is 98.7%
-	* Analysis:
-		* Not too much overfitting , however accuracy is still low
-		* Try to increase layers to check for increase in accuracy
-	* Link: https://github.com/iris*kurapaty/CodingPractice/blob/main/Step6.ipynb
-Step 7:
-	* Target: 
-		* Adding layers to increase model capacity
-		* Fix the location of max pooling
-		* Change of dropout value to 5%
-	* Results:
-		* 5 K parameters
-		* Training Accuracy 98.75%
-		* Test Accuracy is 99.21%
-	* Analysis:
-		* Not too much overfitting , however accuracy is still low
-		* Try image augmentation 
-	* Link: https://github.com/iris*kurapaty/CodingPractice/blob/main/Step7.ipynb
-Step 8:
-	* Target: 
-		* Adding image augmentation 
-	* Results:
-		* 5 K parameters
-		* Training Accuracy 99.7%
-		* Test Accuracy is 99.2%
-	* Analysis:
-		* Not too much overfitting , 
-		* Consistent accuracy of 99.2, however accuracy has not reached desired level
-		* Need to explore other methods of image augmentation
-	* Link: https://github.com/iris*kurapaty/CodingPractice/blob/main/Step8.ipynb
+		* Add Batch Normalization in every layer  
+	* Results:  
+		* 6 K parameters  
+		* Training Accuracy 99.68%  
+		* Test Accuracy is 99.12%  
+	* Analysis:  
+		* We see overfitting in the model with train accuracy rising much higher  
+		* Accuracy needs to be converted for test  
+	* Link: https://github.com/iris*kurapaty/CodingPractice/blob/main/Step4.ipynb  
+Step 5:  
+	* Target:  
+		* Add Regularization to make training harder  
+	* Results:  
+		* 6 K parameters  
+		* Training Accuracy 98.8%  
+		* Test Accuracy is 99.24%  
+	* Analysis:  
+		* Training accuracy but it has helped with test accuracy which is above 99 & consistent.  
+		* However test accuracy isnt going beyond 99.24 in 15 epochs.  
+		* We can add GAP to see if the model capacity can be pushed.  
+	* Link: https://github.com/iris*kurapaty/CodingPractice/blob/main/Step5.ipynb  
+Step 6:  
+	* Target:  
+		* Add GAP to the last layer  
+		* Changed the kernel size of the last convolution layer to adjust for GAP  
+	* Results:  
+		* 5.4 K parameters  
+		* Training Accuracy 98.7%  
+		* Test Accuracy is 98.7%  
+	* Analysis:  
+		* Not too much overfitting , however accuracy is still low  
+		* Try to increase layers to check for increase in accuracy  
+	* Link: https://github.com/iris*kurapaty/CodingPractice/blob/main/Step6.ipynb  
+Step 7:  
+	* Target:   
+		* Adding layers to increase model capacity  
+		* Fix the location of max pooling  
+		* Change of dropout value to 5%  
+	* Results:  
+		* 5 K parameters  
+		* Training Accuracy 98.75%  
+		* Test Accuracy is 99.21%  
+	* Analysis:  
+		* Not too much overfitting , however accuracy is still low  
+		* Try image augmentation  
+	* Link: https://github.com/iris*kurapaty/CodingPractice/blob/main/Step7.ipynb  
+Step 8:  
+	* Target:  
+		* Adding image augmentation  
+	* Results:  
+		* 5 K parameters  
+		* Training Accuracy 99.7%  
+		* Test Accuracy is 99.2%  
+	* Analysis:  
+		* Not too much overfitting  
+		* Consistent accuracy of 99.2, however accuracy has not reached desired level  
+		* Need to explore other methods of image augmentation  
+	* Link: https://github.com/iris*kurapaty/CodingPractice/blob/main/Step8.ipynb  
