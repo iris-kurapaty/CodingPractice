@@ -6,12 +6,12 @@ The *src* folder contains modular code *model.py* and *utils.py*. *model.py* has
 
 ## Steps taken for Model Building
 Step 1:
-	* Target: 
-		* Getting the setup right
-		* Create util functions for displaying images and other plots
-		* Using basic transformers for the images and loading data
-		* Using a basic model and converting it a modular code 
-		* Creating basic train and test modular functions
+	* Target:  
+ 		* Getting the setup right  
+   		* Create util functions for displaying images and other plots  
+		* Using basic transformers for the images and loading data  
+		* Using a basic model and converting it a modular code   
+		* Creating basic train and test modular functions  
 	* Results:
 		* 6.3 M parameters
 		* Training Accuracy 99.96%
