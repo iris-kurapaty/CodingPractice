@@ -5,6 +5,18 @@ This repo is to document all the different steps taken in building a light & acc
 The *src* folder contains modular code *model.py* and *utils.py*. *model.py* has the all the different networks used in each step.
 
 ## Steps taken for Model Building
+ Markup : * Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
+
+-OR-
+
+ Markup : - Bullet list
+              - Nested bullet
+                  - Sub-nested bullet etc
+          - Bullet list item 2 
+
 Step1:  
 Markup : * Target:  
          	* Getting the setup right  
