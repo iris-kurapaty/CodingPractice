@@ -5,9 +5,9 @@ This repo is to document all the different steps taken in building a light & acc
 The *src* folder contains modular code *model.py* and *utils.py*. *model.py* has the all the different networks used in each step.
 
 ## Steps taken for Model Building
-Step 1:
-	* Target:  
- 		* Getting the setup right  
+Step1:  
+Markup : * Target:  
+         	* Getting the setup right  
    		* Create util functions for displaying images and other plots  
 		* Using basic transformers for the images and loading data  
 		* Using a basic model and converting it a modular code   
