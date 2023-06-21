@@ -3,17 +3,17 @@ This repo is to document all the different steps taken in building a light & acc
 
 ## Code Structure
 .
-|---src
-|   |---model.py
-|   |---utils.py
-|---Step1.ipynb
-|---Step2.ipynb
-|---Step3.ipynb
-|---Step4.ipynb
-|---Step5.ipynb
-|---Step6.ipynb
-|---Step7.ipynb
-|---Step8.ipynb
+|---src  
+|   |---model.py  
+|   |---utils.py  
+|---Step1.ipynb  
+|---Step2.ipynb  
+|---Step3.ipynb  
+|---Step4.ipynb  
+|---Step5.ipynb  
+|---Step6.ipynb  
+|---Step7.ipynb  
+|---Step8.ipynb  
 
 ## Steps taken for Model Building
 Step 1:
