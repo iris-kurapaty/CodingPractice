@@ -34,7 +34,8 @@ Step 2:
 * Analysis:
 	* Big drop in number of parameters but still large
 	* Initially doing well but we see some over fitting in the later epochs
-	* Link: https://github.com/iris*kurapaty/CodingPractice/blob/main/Step2.ipynb  
+	* Link: https://github.com/iris*kurapaty/CodingPractice/blob/main/Step2.ipynb
+
 Step 3:
 * Target: 
 	* To drop to the lightest model
@@ -59,7 +60,8 @@ Step 4:
 * Analysis:  
 	* We see overfitting in the model with train accuracy rising much higher  
 	* Accuracy needs to be converted for test  
-	* Link: https://github.com/iris*kurapaty/CodingPractice/blob/main/Step4.ipynb  
+	* Link: https://github.com/iris*kurapaty/CodingPractice/blob/main/Step4.ipynb
+
 Step 5:  
 * Target:  
 	* Add Regularization to make training harder  
@@ -72,6 +74,7 @@ Step 5:
 	* However test accuracy isnt going beyond 99.24 in 15 epochs.  
 	* We can add GAP to see if the model capacity can be pushed.  
 	* Link: https://github.com/iris*kurapaty/CodingPractice/blob/main/Step5.ipynb  
+
 Step 6:  
 * Target:  
 	* Add GAP to the last layer  
@@ -84,6 +87,7 @@ Step 6:
 	* Not too much overfitting , however accuracy is still low  
 	* Try to increase layers to check for increase in accuracy  
 * Link: https://github.com/iris*kurapaty/CodingPractice/blob/main/Step6.ipynb  
+
 Step 7:  
 * Target:   
 	* Adding layers to increase model capacity  
@@ -97,6 +101,7 @@ Step 7:
 	* Not too much overfitting , however accuracy is still low  
 	* Try image augmentation  
 * Link: https://github.com/iris*kurapaty/CodingPractice/blob/main/Step7.ipynb  
+
 Step 8:  
 * Target:  
 	* Adding image augmentation  
