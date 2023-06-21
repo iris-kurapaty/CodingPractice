@@ -2,22 +2,11 @@
 This repo is to document all the different steps taken in building a light & accurate model within 15 epochs
 
 ## Code Structure
-.  
-|---src  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---model.py  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---utils.py  
-|---Step1.ipynb  
-|---Step2.ipynb  
-|---Step3.ipynb  
-|---Step4.ipynb  
-|---Step5.ipynb  
-|---Step6.ipynb  
-|---Step7.ipynb  
-|---Step8.ipynb  
+The *src* folder contains modular code *model.py* and *utils.py*. *model.py* has the all the different networks used in each step.
 
 ## Steps taken for Model Building
 Step 1:
-        - Target: 
+	- Target: 
 		○ Getting the setup right
 		○ Create util functions for displaying images and other plots
 		○ Using basic transformers for the images and loading data
@@ -120,4 +109,3 @@ Step 8:
 		○ Consistent accuracy of 99.2, however accuracy has not reached desired level
 		○ Need to explore other methods of image augmentation
 	- Link: https://github.com/iris-kurapaty/CodingPractice/blob/main/Step8.ipynb
-![image](https://github.com/iris-kurapaty/CodingPractice/assets/52544352/4f33ab77-75b5-49b0-a85e-922ff22df0c4)
