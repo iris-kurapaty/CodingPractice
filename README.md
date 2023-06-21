@@ -2,10 +2,10 @@
 This repo is to document all the different steps taken in building a light & accurate model within 15 epochs
 
 ## Code Structure
-.
+.  
 |---src  
-|   |---model.py  
-|   |---utils.py  
+|$~$|---model.py  
+|$~$|---utils.py  
 |---Step1.ipynb  
 |---Step2.ipynb  
 |---Step3.ipynb  
